@@ -1,7 +1,7 @@
 import http from 'node:http';
 import process from 'node:process';
-import { parseOptions, parseBody } from '../utils/parse-helpers.js';
-import { errorMessage, gracefulShutdown } from '../utils/server-helpers.js';
+import { parseOptions, parseBody } from '../utils/parse-utils.js';
+import { errorMessage, gracefulShutdown } from '../utils/server-utils.js';
 
 const PORT = 3000 || 3001;
 const BASE_URL = 'http://localhost:3000';
